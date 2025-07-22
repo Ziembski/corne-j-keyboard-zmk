@@ -129,7 +129,7 @@ layers:
   - RGB EFR
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - MENU
-  - PRINTSCREEN
+  - Gui+Sft+S
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - F11
   - F12
