@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  QWERTY:
+  COLEMAK:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -44,12 +44,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: FUNC}
+  - {t: '$$mdi:keyboard-space$$', h: NUMBERS}
+  - {t: '$$mdi:keyboard-return$$', h: FUNCTION}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  NUMBER:
+  NUMBERS:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  FUNC:
+  FUNCTION:
   - $$mdi:keyboard-esc$$
   - {t: F1, h: Gui+1}
   - {t: F2, h: Gui+2}
