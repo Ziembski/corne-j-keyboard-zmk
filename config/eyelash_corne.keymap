@@ -56,7 +56,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "COLEMAK";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F         &kp P        &kp B                          &kp UP                &kp J          &kp L  &kp U      &kp Y    &kp SEMI  &kp BSPC
 &td0       &kp A  &kp R  &kp S         &kp T        &kp G                &kp LEFT  &kp ENTER  &kp RIGHT  &kp M          &kp N  &kp E      &kp I    &kp O     &kp SQT
@@ -68,7 +68,7 @@
         };
 
         lower_layer {
-            display-name = "NUMBER";
+            display-name = "NUMBERS";
             bindings = <
 &kp BACKSPACE     &kp N1        &kp N2       &kp N3         &kp N4     &kp N5                                   &mmv MOVE_UP                     &none       &none       &none             &none              &none          &none
 &kp LEFT_SHIFT    &kp NUMBER_6  &kp N7       &kp N8         &kp N9     &kp N0                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME    &kp END     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp GRAVE
@@ -76,11 +76,11 @@
                                              &trans         &trans     &trans                                                                    &none       &none       &none
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
         };
 
         raise_layer {
-            display-name = "FUNC";
+            display-name = "FUNCTION";
             bindings = <
 &kp ESCAPE        &mt LG(NUMBER_1) F1  &mt LG(NUMBER_2) F2  &mt LG(NUMBER_3) F3  &mt LG(NUMBER_4) F4  &mt LG(NUMBER_5) F5                                    &mmv MOVE_UP                     &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF
 &kp LEFT_SHIFT    &kp F6               &kp F7               &kp F8               &kp F9               &kp F10                                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &out OUT_USB     &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR
