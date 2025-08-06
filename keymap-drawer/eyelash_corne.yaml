@@ -45,7 +45,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBERS}
-  - {t: '$$mdi:keyboard-return$$', h: FUNCTION}
+  - {t: '$$mdi:keyboard-return$$', h: FCONFIG}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -95,10 +95,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  FUNCTION:
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  FCONFIG:
   - $$mdi:keyboard-esc$$
   - {t: F1, h: Gui+1}
   - {t: F2, h: Gui+2}
