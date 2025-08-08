@@ -16,7 +16,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-nostalgia
+    - name: nice-view-elemental
       remote: Ziembski
       revision: main
   self:
