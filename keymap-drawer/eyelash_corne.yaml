@@ -47,7 +47,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NUMBERS}
   - {t: '$$mdi:keyboard-return$$', h: FCONFIG}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUMBERS:
   - $$mdi:keyboard-esc$$
