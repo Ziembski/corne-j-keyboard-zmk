@@ -79,7 +79,7 @@ layers:
   - {t: \, s: '|'}
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-control$$
-  - KP COMMA
+  - {t: ',', s: <}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', s: _}
