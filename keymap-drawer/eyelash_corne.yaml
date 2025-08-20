@@ -197,6 +197,30 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [42, 7]
-  k: AltGr+L
+- p: [42, 8]
+  k: L
+  l: [COLEMAK]
+- p: [42, 24]
+  k: E
+  l: [COLEMAK]
+- p: [42, 26]
+  k: O
+  l: [COLEMAK]
+- p: [42, 14]
+  k: A
+  l: [COLEMAK]
+- p: [42, 16]
+  k: S
+  l: [COLEMAK]
+- p: [42, 29]
+  k: Z
+  l: [COLEMAK]
+- p: [42, 30]
+  k: X
+  l: [COLEMAK]
+- p: [42, 31]
+  k: C
+  l: [COLEMAK]
+- p: [42, 23]
+  k: N
   l: [COLEMAK]
