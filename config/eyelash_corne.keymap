@@ -53,15 +53,7 @@
         tap-ms = <100>;
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        lstroke {
-            bindings = <&kp PL_L_STROKE>;
-            key-positions = <42 8>;
-            layers = <0>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
