@@ -57,7 +57,7 @@
         compatible = "zmk,combos";
 
         ltest {
-            bindings = <&kp L>;
+            bindings = <&kp PL_LSTR>;
             key-positions = <42 7>;
             layers = <0>;
             timeout-ms = <500>;
