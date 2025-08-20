@@ -198,29 +198,29 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [42, 8]
-  k: L
+  k: AltGr+L
   l: [COLEMAK]
 - p: [42, 24]
-  k: E
+  k: AltGr+E
   l: [COLEMAK]
 - p: [42, 26]
-  k: O
+  k: AltGr+O
   l: [COLEMAK]
 - p: [42, 14]
-  k: A
+  k: AltGr+A
   l: [COLEMAK]
 - p: [42, 16]
-  k: S
+  k: AltGr+S
   l: [COLEMAK]
 - p: [42, 29]
-  k: Z
+  k: AltGr+Z
   l: [COLEMAK]
 - p: [42, 30]
-  k: X
+  k: AltGr+X
   l: [COLEMAK]
 - p: [42, 31]
-  k: C
+  k: AltGr+C
   l: [COLEMAK]
 - p: [42, 23]
-  k: N
+  k: AltGr+N
   l: [COLEMAK]
