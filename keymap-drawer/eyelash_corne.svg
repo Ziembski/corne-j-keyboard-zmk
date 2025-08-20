@@ -542,7 +542,7 @@ rect.held, rect.combo.held {
 <path d="M448,122 l206,-74" class="combo"/>
 <rect rx="6" ry="6" x="434" y="109" width="28" height="26" class="combo"/>
 <text x="448" y="122" class="combo tap">
-<tspan x="448" dy="-0.6em" style="font-size: 75%">AltGr+KC</tspan><tspan x="448" dy="1.2em" style="font-size: 75%">L</tspan>
+<tspan x="448" dy="-0.6em">AltGr+</tspan><tspan x="448" dy="1.2em">L</tspan>
 </text>
 </g>
 </g>
