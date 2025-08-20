@@ -198,5 +198,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [42, 7]
-  k: L
+  k: AltGr+KC L
   l: [COLEMAK]
