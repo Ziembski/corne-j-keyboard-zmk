@@ -537,6 +537,12 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key enter tap glyph mdi:keyboard-return"/>
 </g>
+<g class="combo combopos-0">
+<path d="M448,122 l-206,74" class="combo"/>
+<path d="M448,122 l206,-74" class="combo"/>
+<rect rx="6" ry="6" x="434" y="109" width="28" height="26" class="combo"/>
+<text x="448" y="122" class="combo tap">L</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBERS">
