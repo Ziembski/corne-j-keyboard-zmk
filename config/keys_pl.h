@@ -32,50 +32,17 @@
 #include <dt-bindings/zmk/keys.h>
 
 // Aliases
-#define PL_GRV  KC_GRV  // `
-#define PL_1    KC_1    // 1
-#define PL_2    KC_2    // 2
-#define PL_3    KC_3    // 3
-#define PL_4    KC_4    // 4
-#define PL_5    KC_5    // 5
-#define PL_6    KC_6    // 6
-#define PL_7    KC_7    // 7
-#define PL_8    KC_8    // 8
-#define PL_9    KC_9    // 9
-#define PL_0    KC_0    // 0
-#define PL_MINS KC_MINS // -
-#define PL_EQL  KC_EQL  // =
-#define PL_Q    KC_Q    // Q
-#define PL_W    KC_W    // W
-#define PL_E    KC_E    // E
-#define PL_R    KC_R    // R
-#define PL_T    KC_T    // T
-#define PL_Y    KC_Y    // Y
-#define PL_U    KC_U    // U
-#define PL_I    KC_I    // I
-#define PL_O    KC_O    // O
-#define PL_P    KC_P    // P
-#define PL_LBRC KC_LBRC // [
-#define PL_RBRC KC_RBRC // ]
-#define PL_BSLS KC_BSLS // (backslash)
-#define PL_A    KC_A    // A
-#define PL_S    KC_S    // S
-#define PL_D    KC_D    // D
-#define PL_F    KC_F    // F
-#define PL_G    KC_G    // G
-#define PL_H    KC_H    // H
-#define PL_J    KC_J    // J
-#define PL_K    KC_K    // K
-#define PL_L    KC_L    // L
-#define PL_SCLN KC_SCLN // ;
-#define PL_QUOT KC_QUOT // '
-#define PL_Z    KC_Z    // Z
-#define PL_X    KC_X    // X
-#define PL_C    KC_C    // C
-#define PL_V    KC_V    // V
-#define PL_B    KC_B    // B
-#define PL_N    KC_N    // N
-#define PL_M    KC_M    // M
+
+
+#define PL_E    E    // E
+#define PL_O    O    // O
+#define PL_A    A    // A
+#define PL_S    S    // S
+#define PL_L    L    // L
+#define PL_Z    Z    // Z
+#define PL_X    X    // X
+#define PL_C    C    // C
+#define PL_N    N    // N
 
 #define PL_EOGO RA(PL_E)    // Ę
 #define PL_EURO RA(PL_U)    // €
