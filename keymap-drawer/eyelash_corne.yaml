@@ -196,7 +196,3 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
-combos:
-- p: [42, 8]
-  k: PL L STROKE
-  l: [COLEMAK]
