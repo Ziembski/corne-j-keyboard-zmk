@@ -16,7 +16,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-elemental
+    - name: nice-view-press-start
       remote: Ziembski
       revision: main
   self:
