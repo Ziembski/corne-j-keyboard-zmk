@@ -105,7 +105,7 @@ layers:
   - {t: F3, h: Gui+3}
   - {t: F4, h: Gui+4}
   - {t: F5, h: Gui+5}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - SCROLL UP
   - RGB TOG
   - RGB HUI
   - RGB SAI
@@ -118,9 +118,9 @@ layers:
   - F8
   - F9
   - F10
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - OUT USB
   - RGB HUD
   - RGB SAD
@@ -134,7 +134,7 @@ layers:
   - F11
   - F12
   - BT CLR ALL
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - SCROLL DOWN
   - OUT BLE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
