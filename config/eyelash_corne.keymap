@@ -47,7 +47,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <140>;
-            flavor = "tap-unless-interrupted";
+            flavor = "tap-preferred";
         };
 
         ht_func_rgb: ht_func_rgb {
@@ -57,7 +57,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <140>;
-            flavor = "tap-unless-interrupted";
+            flavor = "tap-preferred";
         };
     };
 
