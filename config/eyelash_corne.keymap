@@ -126,32 +126,41 @@
         numbers_RGB: numbers_RGB {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press &mo 1>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(235,100,100)>
-                , <&macro_pause_for_release>
-                , <&macro_release &mo 1>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(200,75,100)>;
+            bindings =
+                <&macro_press>,
+                <&mo 1>,
+                <&macro_tap>,
+                <&rgb_ug RGB_COLOR_HSB(235,100,49)>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 1>,
+                <&macro_tap>,
+                <&rgb_ug RGB_COLOR_HSB(200,100,61)>;
         };
+
         func_RGB: func_RGB {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press &mo 2>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(125,100,75)>
-                , <&macro_pause_for_release>
-                , <&macro_release &mo 2>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(200,75,100)>;
+            bindings =
+                <&macro_press>,
+                <&mo 2>,
+                <&macro_tap>,
+                <&rgb_ug RGB_COLOR_HSB(125,100,75)>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 2>,
+                <&macro_tap>,
+                <&rgb_ug RGB_COLOR_HSB(200,100,61)>;
         };
+
         gaming_RGB: gaming_RGB {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press &mo 3>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(0,100,100)>
-                , <&macro_pause_for_release>
-                , <&macro_release &mo 3>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(200,75,100)>;
+            bindings =
+                <&macro_press>,
+                <&tog 3>,
+                <&macro_tap>,
+                <&rgb_ug RGB_COLOR_HSB(0,100,50)>;
         };
     };
 
@@ -161,10 +170,10 @@
         default_layer {
             display-name = "COLEMAK";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F         &kp P        &kp B                          &kp UP                &kp J          &kp L           &kp U      &kp Y    &kp SEMI  &kp BSPC
-&td0       &kp A  &kp R  &kp S         &kp T        &kp G                &kp LEFT  &kp ENTER  &kp RIGHT  &kp M          &kp N           &kp E      &kp I    &kp O     &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C         &kp D        &kp V      &tog 3              &kp DOWN              &kp K          &kp H           &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LEFT_ALT  &lt 1 SPACE  &lt 2 RET                                            &kp BACKSPACE  &kp LEFT_SHIFT  &kp RET
+&kp TAB    &kp Q  &kp W  &kp F         &kp P         &kp B                               &kp UP                &kp J          &kp L           &kp U      &kp Y    &kp SEMI  &kp BSPC
+&td0       &kp A  &kp R  &kp S         &kp T         &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp M          &kp N           &kp E      &kp I    &kp O     &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C         &kp D         &kp V      &gaming_RGB              &kp DOWN              &kp K          &kp H           &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                         &kp LEFT_ALT  &numbers_RGB  &func_RGB                                                 &kp BACKSPACE  &kp LEFT_SHIFT  &kp RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
