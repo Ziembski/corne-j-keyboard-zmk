@@ -150,12 +150,12 @@
                 <&macro_press>,
                 <&mo 1>,
                 <&macro_tap>,
-                <&rgb_ug RGB_COLOR_HSB(235,50,50)>,
+                <&rgb_ug RGB_COLOR_HSB(235,70,50)>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&mo 1>,
                 <&macro_tap>,
-                <&rgb_ug RGB_COLOR_HSB(200,50,60)>;
+                <&rgb_ug RGB_COLOR_HSB(200,70,60)>;
         };
 
         func_RGB: func_RGB {
@@ -165,12 +165,12 @@
                 <&macro_press>,
                 <&mo 2>,
                 <&macro_tap>,
-                <&rgb_ug RGB_COLOR_HSB(125,50,75)>,
+                <&rgb_ug RGB_COLOR_HSB(125,70,75)>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&mo 2>,
                 <&macro_tap>,
-                <&rgb_ug RGB_COLOR_HSB(200,50,60)>;
+                <&rgb_ug RGB_COLOR_HSB(200,70,60)>;
         };
 
         gaming_RGB: gaming_RGB {
