@@ -39,6 +39,26 @@
 
             label = "Shift + Caps";
         };
+
+        ht_numbers_rgb: ht_numbers_rgb {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_NUMBERS_RGB";
+            bindings = <&numbers_RGB>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <140>;
+            flavor = "tap-unless-interrupted";
+        };
+
+        ht_func_rgb: ht_func_rgb {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_FUNC_RGB";
+            bindings = <&func_RGB>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <140>;
+            flavor = "tap-unless-interrupted";
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -170,10 +190,10 @@
         default_layer {
             display-name = "COLEMAK";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F         &kp P         &kp B                               &kp UP                &kp J          &kp L           &kp U      &kp Y    &kp SEMI  &kp BSPC
-&td0       &kp A  &kp R  &kp S         &kp T         &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp M          &kp N           &kp E      &kp I    &kp O     &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C         &kp D         &kp V      &gaming_RGB              &kp DOWN              &kp K          &kp H           &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LEFT_ALT  &numbers_RGB  &func_RGB                                                 &kp BACKSPACE  &kp LEFT_SHIFT  &kp RET
+&kp TAB    &kp Q  &kp W  &kp F         &kp P                    &kp B                                          &kp UP                &kp J          &kp L           &kp U      &kp Y    &kp SEMI  &kp BSPC
+&td0       &kp A  &kp R  &kp S         &kp T                    &kp G                                &kp LEFT  &kp ENTER  &kp RIGHT  &kp M          &kp N           &kp E      &kp I    &kp O     &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C         &kp D                    &kp V                 &gaming_RGB              &kp DOWN              &kp K          &kp H           &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                         &kp LEFT_ALT  &ht_numbers_rgb 0 SPACE  &ht_func_rgb 0 ENTER                                                 &kp BACKSPACE  &kp LEFT_SHIFT  &kp RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
