@@ -196,19 +196,19 @@
                          &kp LEFT_ALT  &ht_numbers_rgb 0 SPACE  &ht_func_rgb 0 ENTER                                                 &kp BACKSPACE  &kp LEFT_SHIFT  &kp RET
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
         };
 
         lower_layer {
             display-name = "NUMBERS";
             bindings = <
-&mt GRAVE ESCAPE  &kp N1         &kp N2      &kp N3            &kp N4               &kp N5                                              &mmv MOVE_UP                     &none          &none           &none    &none  &none          &none
-&kp LEFT_SHIFT    &kp NUMBER_6   &kp N7      &kp N8            &mt LEFT_BRACKET N9  &mt RIGHT_BRACKET N0                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME       &kp END         &none    &none  &kp BACKSLASH  &none
-&kp LEFT_CONTROL  &mt DOT COMMA  &kp DELETE  &kp BACKSPACE     &mt SLASH MINUS      &mt ASTRK EQUAL       &kp C_MUTE                    &mmv MOVE_DOWN                   &kp INSERT     &none           &none    &none  &none          &none
-                                             &kp LEFT_COMMAND  &trans               &trans                                                                               &kp BACKSPACE  &kp LEFT_SHIFT  &kp RET
+&mt GRAVE ESCAPE          &kp N1         &kp N2      &kp N3            &kp N4               &kp N5                                              &mmv MOVE_UP                     &none          &none           &none    &none  &none          &none
+&mt SEMICOLON LEFT_SHIFT  &kp NUMBER_6   &kp N7      &kp N8            &mt LEFT_BRACKET N9  &mt RIGHT_BRACKET N0                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME       &kp END         &none    &none  &kp BACKSLASH  &none
+&kp LEFT_CONTROL          &mt DOT COMMA  &kp DELETE  &kp BACKSPACE     &mt SLASH MINUS      &mt ASTRK EQUAL       &kp C_MUTE                    &mmv MOVE_DOWN                   &kp INSERT     &none           &none    &none  &none          &none
+                                                     &kp LEFT_COMMAND  &trans               &trans                                                                               &kp BACKSPACE  &kp LEFT_SHIFT  &kp RET
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         raise_layer {
