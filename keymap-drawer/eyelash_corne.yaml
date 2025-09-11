@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: ;}
+  - $$mdi:apple-keyboard-shift$$
   - '6'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -79,7 +79,7 @@ layers:
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
-  - {t: ',', h: ., s: <}
+  - {t: '&td_semi', h: .}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', h: /, s: _}
