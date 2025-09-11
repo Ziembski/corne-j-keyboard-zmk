@@ -79,12 +79,12 @@ layers:
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
-  - {t: '&td_semi', h: .}
+  - {t: ',', h: ., s: <}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', h: /, s: _}
   - {t: '=', h: '*', s: +}
-  - $$mdi:volume-off$$
+  - {t: ;, s: ':'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Ins
   - {t: '$$mdi:minus-circle-outline$$', type: none}
