@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '&func_RGB'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   NUMBERS:
   - {t: '$$mdi:keyboard-esc$$', h: '`'}
   - {t: '1', s: '!'}
@@ -197,30 +197,30 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [42, 8]
+- p: [8, 47]
   k: AltGr+L
   l: [COLEMAK]
-- p: [42, 24]
+- p: [24, 47]
   k: AltGr+E
   l: [COLEMAK]
-- p: [42, 26]
+- p: [26, 47]
   k: AltGr+O
   l: [COLEMAK]
-- p: [42, 14]
+- p: [14, 47]
   k: AltGr+A
   l: [COLEMAK]
-- p: [42, 16]
+- p: [16, 47]
   k: AltGr+S
   l: [COLEMAK]
-- p: [42, 29]
+- p: [29, 47]
   k: AltGr+Z
   l: [COLEMAK]
-- p: [42, 30]
+- p: [30, 47]
   k: AltGr+X
   l: [COLEMAK]
-- p: [42, 31]
+- p: [31, 47]
   k: AltGr+C
   l: [COLEMAK]
-- p: [42, 23]
+- p: [23, 47]
   k: AltGr+N
   l: [COLEMAK]
