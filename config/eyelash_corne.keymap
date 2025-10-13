@@ -100,63 +100,63 @@
         Ls {
             timeout-ms = <200>;
             bindings = <&kp PL_LSTR>;
-            key-positions = <42 8>;
+            key-positions = <8 47>;
             layers = <0>;
         };
 
         Es {
             timeout-ms = <200>;
             bindings = <&kp PL_EOGO>;
-            key-positions = <42 24>;
+            key-positions = <24 47>;
             layers = <0>;
         };
 
         Os {
             timeout-ms = <200>;
             bindings = <&kp PL_OACU>;
-            key-positions = <42 26>;
+            key-positions = <26 47>;
             layers = <0>;
         };
 
         As {
             timeout-ms = <200>;
             bindings = <&kp PL_AOGO>;
-            key-positions = <42 14>;
+            key-positions = <14 47>;
             layers = <0>;
         };
 
         Ss {
             timeout-ms = <200>;
             bindings = <&kp PL_SACU>;
-            key-positions = <42 16>;
+            key-positions = <16 47>;
             layers = <0>;
         };
 
         Zs {
             timeout-ms = <200>;
             bindings = <&kp PL_ZDOT>;
-            key-positions = <42 29>;
+            key-positions = <29 47>;
             layers = <0>;
         };
 
         Xs {
             timeout-ms = <200>;
             bindings = <&kp PL_ZACU>;
-            key-positions = <42 30>;
+            key-positions = <30 47>;
             layers = <0>;
         };
 
         Cs {
             timeout-ms = <200>;
             bindings = <&kp PL_CACU>;
-            key-positions = <42 31>;
+            key-positions = <31 47>;
             layers = <0>;
         };
 
         Ns {
             timeout-ms = <200>;
             bindings = <&kp PL_NACU>;
-            key-positions = <42 23>;
+            key-positions = <23 47>;
             layers = <0>;
         };
     };
@@ -212,7 +212,7 @@
 &kp TAB    &kp Q  &kp W  &kp F         &kp P                    &kp B                                          &kp UP                &kp J          &kp L           &kp U      &kp Y    &kp SEMI  &kp BSPC
 &td0       &kp A  &kp R  &kp S         &kp T                    &kp G                                &kp LEFT  &kp ENTER  &kp RIGHT  &kp M          &kp N           &kp E      &kp I    &kp O     &kp SQT
 &kp LCTRL  &kp Z  &kp X  &kp C         &kp D                    &kp V                 &gaming_RGB              &kp DOWN              &kp K          &kp H           &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LEFT_ALT  &ht_numbers_rgb 0 SPACE  &ht_func_rgb 0 ENTER                                                 &kp BACKSPACE  &kp LEFT_SHIFT  &kp RET
+                         &kp LEFT_ALT  &ht_numbers_rgb 0 SPACE  &ht_func_rgb 0 ENTER                                                 &kp BACKSPACE  &kp LEFT_SHIFT  &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
