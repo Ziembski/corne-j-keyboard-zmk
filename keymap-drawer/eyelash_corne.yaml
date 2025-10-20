@@ -106,12 +106,12 @@ layers:
   - {t: F4, h: Gui+4}
   - {t: F5, h: Gui+5}
   - SCROLL UP
-  - RGB TOG
-  - RGB HUI
-  - RGB SAI
-  - RGB BRI
-  - RGB SPI
-  - RGB EFF
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&left'
+  - '&mid'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - F6
   - F7
@@ -121,22 +121,22 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - OUT USB
-  - RGB HUD
-  - RGB SAD
-  - RGB BRD
-  - RGB SPD
-  - RGB EFR
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&xlookup'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - MENU
-  - Gui+Sft+S
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - '&copy'
+  - '&paste'
+  - Sft+Gui+S
   - F11
   - F12
   - BT CLR ALL
   - SCROLL DOWN
-  - OUT BLE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - '&sumifs'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - SCROLLLOCK
@@ -145,8 +145,8 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - '&studio_unlock'
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - RGB TOG
   GAMING:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
