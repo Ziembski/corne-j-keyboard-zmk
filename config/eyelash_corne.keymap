@@ -219,7 +219,7 @@
         left: left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp L &kp E &kp F &kp T>;
+            bindings = <&kp EQUAL &kp L &kp E &kp F &kp T &kp LPAR>;
             label = "LEFT";
         };
 
