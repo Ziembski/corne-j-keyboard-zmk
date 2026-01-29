@@ -13,7 +13,7 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - '&block'
   - '&td0'
   - A
   - R
@@ -137,7 +137,7 @@ layers:
   - SCROLL DOWN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&sumifs'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&countif'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - SCROLLLOCK
   - PAUSE
