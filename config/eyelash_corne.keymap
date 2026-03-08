@@ -257,10 +257,10 @@
 			wait-ms = <10>;
             bindings =
                 <&kt RCTRL &kt RIGHT_ALT &kt DELETE>,
-				<&kt DELETE &kt RIGHT_ALT &kt RCTRL>;
+				<&kt DELETE &kt RIGHT_ALT &kt RCTRL>,
                 <&macro_wait_time 500>,
                 <&kp ENTER>,
-				<&macro_wait_time 10>,
+				<&macro_wait_time 10>;
 
 
             label = "BLOCK";
