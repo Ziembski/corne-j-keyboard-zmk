@@ -247,7 +247,7 @@
         countif: countif {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp C &kp O &kp U &kp N &kp T &kp I &kp F &kp LPAR>;
+            bindings = <&kp EQUAL &kp C &kp O &kp U &kp N &kp T &kp I &kp F &kp S &kp LPAR>;
             label = "COUNTIF";
         };
 
