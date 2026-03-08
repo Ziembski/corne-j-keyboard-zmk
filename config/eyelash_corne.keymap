@@ -256,7 +256,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kt RCTRL &kt RIGHT_ALT &kt DELETE>,
-                <&macro_press>,
+                <&macro_wait_time 500>,
                 <&kp ENTER &kt DELETE &kt RIGHT_ALT &kt RCTRL>;
 
             label = "BLOCK";
