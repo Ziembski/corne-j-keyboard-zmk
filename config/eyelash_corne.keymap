@@ -254,7 +254,7 @@
         block: block {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RCTRL &kp RIGHT_ALT &kp DELETE &kp ENTER>;
+            bindings = <&kt RCTRL &kt RIGHT_ALT &kt DELETE &kp ENTER &kt DELETE &kt RIGHT_ALT &kt RCTRL>;
             label = "BLOCK";
         };
     };
