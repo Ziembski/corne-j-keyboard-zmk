@@ -258,7 +258,7 @@
             bindings =
                 <&kt RCTRL &kt RIGHT_ALT &kt DELETE>,
                 <¯o_wait_time 1000>,
-                <&kp ENTER>
+                <&kp ENTER>,
 				<¯o_wait_time 10>,
 				<&kt DELETE &kt RIGHT_ALT &kt RCTRL>;
 
