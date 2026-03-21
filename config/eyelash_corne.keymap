@@ -328,7 +328,7 @@
         newlayout {
             bindings = <
 &trans  &kp F  &kp N  &kp D   &kp W   &kp V                       &kp UP               &kp SQT  &kp K   &kp O      &kp U     &kp Y    &trans
-&trans  &kp S  &kp R  &kp T   &kp C   &kp G             &kp LEFT  &kp RET   &kp RIGHT  &kp X    &kp L   &kp A      &kp E     &kp I    &kp SEMI
+&trans  &kp S  &kp R  &kp T   &kp C   &kp G             &kp LEFT  &tog 4    &kp RIGHT  &kp X    &kp L   &kp A      &kp E     &kp I    &kp SEMI
 &trans  &kp J  &kp H  &kp N   &kp P   &kp B   &trans              &kp DOWN             &kp Q    &kp Z   &kp COMMA  &kp FSLH  &kp DOT  &trans
                       &trans  &trans  &trans                                           &trans   &trans  &trans
             >;
