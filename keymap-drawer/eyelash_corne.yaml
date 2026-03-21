@@ -217,7 +217,7 @@ layers:
   - C
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: newlayout, h: toggle}
   - $$mdi:arrow-right-bold$$
   - X
   - L
