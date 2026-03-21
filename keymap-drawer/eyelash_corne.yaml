@@ -21,7 +21,7 @@ layers:
   - T
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: newlayout, h: toggle}
   - $$mdi:arrow-right-bold$$
   - M
   - N
@@ -195,6 +195,55 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  newlayout:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F
+  - N
+  - D
+  - W
+  - V
+  - $$mdi:arrow-up-bold$$
+  - {t: '''', s: '"'}
+  - K
+  - O
+  - U
+  - Y
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - S
+  - R
+  - T
+  - C
+  - G
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - X
+  - L
+  - A
+  - E
+  - I
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - J
+  - H
+  - N
+  - P
+  - B
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-down-bold$$
+  - Q
+  - Z
+  - {t: ',', s: <}
+  - {t: /, s: '?'}
+  - {t: ., s: '>'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [8, 47]
