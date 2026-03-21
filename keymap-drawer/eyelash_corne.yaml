@@ -205,7 +205,7 @@ layers:
   - V
   - $$mdi:arrow-up-bold$$
   - {t: '''', s: '"'}
-  - K
+  - L
   - O
   - U
   - Y
@@ -219,15 +219,15 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: newlayout, h: toggle}
   - $$mdi:arrow-right-bold$$
-  - X
-  - L
+  - H
+  - K
   - A
   - E
   - I
   - {t: ;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
+  - X
   - J
-  - H
   - M
   - P
   - B
