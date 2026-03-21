@@ -256,16 +256,19 @@
             #binding-cells = <0>;
             wait-ms = <100>;
             tap-ms = <50>;
-            bindings
-                = <&macro_press &kp LCTRL &kp LALT>
-                , <&macro_tap &kp DEL>
-                , <&macro_release &kp LCTRL &kp LALT>
-                , <&macro_wait_time 1000>
-                , <&macro_tap &kp TAB> 
-                , <&macro_wait_time 100>
-                , <&macro_tap &kp UP &kp ENTER>
-                ;
-
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LALT>,
+                <&macro_tap>,
+                <&kp DEL>,
+                <&macro_release>,
+                <&kp LCTRL &kp LALT>,
+                <&macro_wait_time 1000>,
+                <&macro_tap>,
+                <&kp TAB>,
+                <&macro_wait_time 100>,
+                <&macro_tap>,
+                <&kp UP &kp ENTER>;
 
             label = "BLOCK";
         };
@@ -277,10 +280,10 @@
         default_layer {
             display-name = "COLEMAK";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F         &kp P                    &kp B                                          &kp UP                &kp J          &kp L           &kp U      &kp Y    &kp SEMI  &block
-&td0       &kp A  &kp R  &kp S         &kp T                    &kp G                                &kp LEFT  &kp ENTER  &kp RIGHT  &kp M          &kp N           &kp E      &kp I    &kp O     &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C         &kp D                    &kp V                 &gaming_RGB              &kp DOWN              &kp K          &kp H           &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LEFT_ALT  &ht_numbers_rgb 0 SPACE  &ht_func_rgb 0 ENTER                                                 &kp BACKSPACE  &kp LEFT_SHIFT  &none
+&kp TAB    &kp Q  &kp W  &kp F         &kp P                    &kp B                                          &kp UP               &kp J          &kp L           &kp U      &kp Y    &kp SEMI  &block
+&td0       &kp A  &kp R  &kp S         &kp T                    &kp G                                &kp LEFT  &tog 4    &kp RIGHT  &kp M          &kp N           &kp E      &kp I    &kp O     &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C         &kp D                    &kp V                 &gaming_RGB              &kp DOWN             &kp K          &kp H           &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                         &kp LEFT_ALT  &ht_numbers_rgb 0 SPACE  &ht_func_rgb 0 ENTER                                                &kp BACKSPACE  &kp LEFT_SHIFT  &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
@@ -320,6 +323,17 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        newlayout {
+            bindings = <
+&trans  &kp F  &kp N  &kp D   &kp W   &kp V                       &kp UP               &kp SQT  &kp K   &kp O      &kp U     &kp Y    &trans
+&trans  &kp S  &kp R  &kp T   &kp C   &kp G             &kp LEFT  &kp RET   &kp RIGHT  &kp X    &kp L   &kp A      &kp E     &kp I    &kp SEMI
+&trans  &kp J  &kp H  &kp N   &kp P   &kp B   &trans              &kp DOWN             &kp Q    &kp Z   &kp COMMA  &kp FSLH  &kp DOT  &trans
+                      &trans  &trans  &trans                                           &trans   &trans  &trans
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
