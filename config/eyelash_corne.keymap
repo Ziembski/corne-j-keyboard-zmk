@@ -175,7 +175,7 @@
         };
 
         new_a {
-            bindings = <&kp PL_A_AOGO>;
+            bindings = <&kp PL_AOGO>;
             key-positions = <47 24>;
             timeout-ms = <200>;
             layers = <4>;
