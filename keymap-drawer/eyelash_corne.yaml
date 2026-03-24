@@ -274,7 +274,7 @@ combos:
   k: AltGr+N
   l: [COLEMAK]
 - p: [47, 25]
-  k: PL E OGON
+  k: PL E OGONEK
   l: [newlayout]
 - p: [47, 9]
   k: PL O ACUTE
@@ -290,10 +290,10 @@ combos:
   l: [newlayout]
 - p: [47, 29]
   k: PL Z ACUTE
-  l: [COLEMAK]
+  l: [newlayout]
 - p: [47, 17]
   k: PL C ACUTE
-  l: [COLEMAK]
+  l: [newlayout]
 - p: [47, 2]
   k: PL N ACUTE
-  l: [COLEMAK]
+  l: [newlayout]
