@@ -189,7 +189,7 @@
         };
 
         new_z {
-            bindings = <&kp ZDOT>;
+            bindings = <&kp PL_ZDOT>;
             key-positions = <47 37>;
             timeout-ms = <200>;
             layers = <4>;
