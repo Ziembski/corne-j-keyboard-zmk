@@ -280,7 +280,7 @@ combos:
   k: AltGr+O
   l: [newlayout]
 - p: [47, 24]
-  k: PL A AOGO
+  k: AltGr+A
   l: [newlayout]
 - p: [47, 14]
   k: AltGr+S

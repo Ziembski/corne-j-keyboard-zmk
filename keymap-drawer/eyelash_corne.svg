@@ -1675,7 +1675,7 @@ rect.held, rect.combo.held {
 <path d="M770,143 l10,-41" class="combo"/>
 <rect rx="6" ry="6" x="756" y="130" width="28" height="26" class="combo"/>
 <text x="770" y="143" class="combo tap">
-<tspan x="770" dy="-0.6em">PL</tspan><tspan x="770" dy="1.2em">…</tspan>
+<tspan x="770" dy="-0.6em">AltGr+</tspan><tspan x="770" dy="1.2em">A</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
