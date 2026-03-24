@@ -197,7 +197,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   newlayout:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - F
   - N
   - D
@@ -210,7 +210,7 @@ layers:
   - U
   - Y
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&td0'
   - S
   - R
   - T
@@ -225,30 +225,30 @@ layers:
   - E
   - I
   - {t: ;, s: ':'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - X
   - J
   - M
   - P
   - B
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&gaming_RGB'
   - $$mdi:arrow-down-bold$$
   - Q
   - Z
   - {t: ',', s: <}
   - {t: /, s: '?'}
   - {t: ., s: '>'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-space$$', h: '&numbers_RGB'}
+  - {t: '$$mdi:keyboard-return$$', h: '&func_RGB'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [8, 47]
   k: AltGr+L
-  l: [COLEMAK]
+  l: [COLEMAK, newlayout]
 - p: [24, 47]
   k: AltGr+E
   l: [COLEMAK]
@@ -272,4 +272,28 @@ combos:
   l: [COLEMAK]
 - p: [23, 47]
   k: AltGr+N
+  l: [COLEMAK]
+- p: [47, 25]
+  k: PL E OGON
+  l: [newlayout]
+- p: [47, 9]
+  k: PL O ACUTE
+  l: [newlayout]
+- p: [47, 24]
+  k: PL A OGONEK
+  l: [newlayout]
+- p: [47, 14]
+  k: PL S ACUTE
+  l: [newlayout]
+- p: [47, 37]
+  k: PL Z DOT
+  l: [newlayout]
+- p: [47, 29]
+  k: PL Z ACUTE
+  l: [COLEMAK]
+- p: [47, 17]
+  k: PL C ACUTE
+  l: [COLEMAK]
+- p: [47, 2]
+  k: PL N ACUTE
   l: [COLEMAK]
