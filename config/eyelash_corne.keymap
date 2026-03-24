@@ -101,7 +101,7 @@
             timeout-ms = <200>;
             bindings = <&kp PL_LSTR>;
             key-positions = <8 47>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         Es {
@@ -157,6 +157,62 @@
             timeout-ms = <200>;
             bindings = <&kp PL_NACU>;
             key-positions = <23 47>;
+            layers = <0>;
+        };
+
+        new_e {
+            bindings = <&kp PL_E_OGON>;
+            key-positions = <47 25>;
+            timeout-ms = <200>;
+            layers = <4>;
+        };
+
+        new_o {
+            bindings = <&kp PL_O_ACUTE>;
+            key-positions = <47 9>;
+            timeout-ms = <200>;
+            layers = <4>;
+        };
+
+        new_a {
+            bindings = <&kp PL_A_OGONEK>;
+            key-positions = <47 24>;
+            timeout-ms = <200>;
+            layers = <4>;
+        };
+
+        new_s {
+            bindings = <&kp PL_S_ACUTE>;
+            key-positions = <47 14>;
+            timeout-ms = <200>;
+            layers = <4>;
+        };
+
+        new_z {
+            bindings = <&kp PL_Z_DOT>;
+            key-positions = <47 37>;
+            timeout-ms = <200>;
+            layers = <4>;
+        };
+
+        new_x {
+            bindings = <&kp PL_Z_ACUTE>;
+            key-positions = <47 29>;
+            timeout-ms = <200>;
+            layers = <0>;
+        };
+
+        new_c {
+            bindings = <&kp PL_C_ACUTE>;
+            key-positions = <47 17>;
+            timeout-ms = <200>;
+            layers = <0>;
+        };
+
+        new_n {
+            bindings = <&kp PL_N_ACUTE>;
+            key-positions = <47 2>;
+            timeout-ms = <200>;
             layers = <0>;
         };
     };
@@ -327,10 +383,10 @@
 
         newlayout {
             bindings = <
-&trans  &kp F  &kp N  &kp D   &kp W   &kp V                       &kp UP               &kp SQT  &kp L   &kp O      &kp U     &kp Y    &trans
-&trans  &kp S  &kp R  &kp T   &kp C   &kp G             &kp LEFT  &tog 4    &kp RIGHT  &kp H    &kp K   &kp A      &kp E     &kp I    &kp SEMI
-&trans  &kp X  &kp J  &kp M   &kp P   &kp B   &trans              &kp DOWN             &kp Q    &kp Z   &kp COMMA  &kp FSLH  &kp DOT  &trans
-                      &trans  &trans  &trans                                           &trans   &trans  &trans
+&kp TAB    &kp F  &kp N  &kp D     &kp W                    &kp V                                          &kp UP               &kp SQT   &kp L      &kp O      &kp U     &kp Y    &trans
+&td0       &kp S  &kp R  &kp T     &kp C                    &kp G                                &kp LEFT  &tog 4    &kp RIGHT  &kp H     &kp K      &kp A      &kp E     &kp I    &kp SEMI
+&kp LCTRL  &kp X  &kp J  &kp M     &kp P                    &kp B                 &gaming_RGB              &kp DOWN             &kp Q     &kp Z      &kp COMMA  &kp FSLH  &kp DOT  &kp ESC
+                         &kp LALT  &ht_numbers_rgb 0 SPACE  &ht_func_rgb 0 ENTER                                                &kp BSPC  &kp LSHFT  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
