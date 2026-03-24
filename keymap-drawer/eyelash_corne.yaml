@@ -286,7 +286,7 @@ combos:
   k: AltGr+S
   l: [newlayout]
 - p: [47, 37]
-  k: ZDOT
+  k: AltGr+Z
   l: [newlayout]
 - p: [47, 29]
   k: AltGr+X

@@ -1688,7 +1688,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="728" y="162" width="28" height="26" class="combo"/>
-<text x="742" y="175" class="combo tap">ZDOT</text>
+<text x="742" y="175" class="combo tap">
+<tspan x="742" dy="-0.6em">AltGr+</tspan><tspan x="742" dy="1.2em">Z</tspan>
+</text>
 </g>
 <g class="combo combopos-6">
 <path d="M420,182 l317,20" class="combo"/>
