@@ -274,26 +274,26 @@ combos:
   k: AltGr+N
   l: [COLEMAK]
 - p: [47, 25]
-  k: PL E OGONEK
+  k: AltGr+E
   l: [newlayout]
 - p: [47, 9]
-  k: PL O ACUTE
+  k: AltGr+O
   l: [newlayout]
 - p: [47, 24]
-  k: PL A OGONEK
+  k: PL A AOGO
   l: [newlayout]
 - p: [47, 14]
-  k: PL S ACUTE
+  k: AltGr+S
   l: [newlayout]
 - p: [47, 37]
-  k: PL Z DOT
+  k: ZDOT
   l: [newlayout]
 - p: [47, 29]
-  k: PL Z ACUTE
+  k: AltGr+X
   l: [newlayout]
 - p: [47, 17]
-  k: PL C ACUTE
+  k: AltGr+C
   l: [newlayout]
 - p: [47, 2]
-  k: PL N ACUTE
+  k: AltGr+N
   l: [newlayout]
