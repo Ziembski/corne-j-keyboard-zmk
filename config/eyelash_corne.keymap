@@ -161,7 +161,7 @@
         };
 
         new_e {
-            bindings = <&kp PL_E_OGON>;
+            bindings = <&kp PL_E_OGONEK>;
             key-positions = <47 25>;
             timeout-ms = <200>;
             layers = <4>;
@@ -199,21 +199,21 @@
             bindings = <&kp PL_Z_ACUTE>;
             key-positions = <47 29>;
             timeout-ms = <200>;
-            layers = <0>;
+            layers = <4>;
         };
 
         new_c {
             bindings = <&kp PL_C_ACUTE>;
             key-positions = <47 17>;
             timeout-ms = <200>;
-            layers = <0>;
+            layers = <4>;
         };
 
         new_n {
             bindings = <&kp PL_N_ACUTE>;
             key-positions = <47 2>;
             timeout-ms = <200>;
-            layers = <0>;
+            layers = <4>;
         };
     };
 
