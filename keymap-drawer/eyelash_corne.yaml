@@ -200,27 +200,27 @@ combos:
 - p: [8, 47]
   k: AltGr+L
   l: [COLEMAK]
-- p: [24, 47]
+- p: [47, 25]
   k: AltGr+E
   l: [COLEMAK]
-- p: [26, 47]
+- p: [47, 9]
   k: AltGr+O
   l: [COLEMAK]
-- p: [14, 47]
+- p: [47, 24]
   k: AltGr+A
   l: [COLEMAK]
-- p: [16, 47]
+- p: [47, 14]
   k: AltGr+S
   l: [COLEMAK]
-- p: [29, 47]
+- p: [47, 37]
   k: AltGr+Z
   l: [COLEMAK]
-- p: [30, 47]
+- p: [47, 29]
   k: AltGr+X
   l: [COLEMAK]
-- p: [31, 47]
+- p: [47, 17]
   k: AltGr+C
   l: [COLEMAK]
-- p: [23, 47]
+- p: [47, 2]
   k: AltGr+N
   l: [COLEMAK]
