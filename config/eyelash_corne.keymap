@@ -107,56 +107,56 @@
         Es {
             timeout-ms = <200>;
             bindings = <&kp PL_EOGO>;
-            key-positions = <24 47>;
+            key-positions = <47 25>;
             layers = <0>;
         };
 
         Os {
             timeout-ms = <200>;
             bindings = <&kp PL_OACU>;
-            key-positions = <26 47>;
+            key-positions = <47 9>;
             layers = <0>;
         };
 
         As {
             timeout-ms = <200>;
             bindings = <&kp PL_AOGO>;
-            key-positions = <14 47>;
+            key-positions = <47 24>;
             layers = <0>;
         };
 
         Ss {
             timeout-ms = <200>;
             bindings = <&kp PL_SACU>;
-            key-positions = <16 47>;
+            key-positions = <47 14>;
             layers = <0>;
         };
 
         Zs {
             timeout-ms = <200>;
             bindings = <&kp PL_ZDOT>;
-            key-positions = <29 47>;
+            key-positions = <47 37>;
             layers = <0>;
         };
 
         Xs {
             timeout-ms = <200>;
             bindings = <&kp PL_ZACU>;
-            key-positions = <30 47>;
+            key-positions = <47 29>;
             layers = <0>;
         };
 
         Cs {
             timeout-ms = <200>;
             bindings = <&kp PL_CACU>;
-            key-positions = <31 47>;
+            key-positions = <47 17>;
             layers = <0>;
         };
 
         Ns {
             timeout-ms = <200>;
             bindings = <&kp PL_NACU>;
-            key-positions = <23 47>;
+            key-positions = <47 2>;
             layers = <0>;
         };
     };
