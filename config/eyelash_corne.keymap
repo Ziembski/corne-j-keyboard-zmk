@@ -96,6 +96,34 @@
 
     combos {
         compatible = "zmk,combos";
+		
+        Zs {
+            timeout-ms = <200>;
+            bindings = <&kp PL_Z>;
+            key-positions = <47 37>;
+            layers = <0>;
+        };
+
+        Xs {
+            timeout-ms = <200>;
+            bindings = <&kp PL_X>;
+            key-positions = <47 29>;
+            layers = <0>;
+        };
+
+        Cs {
+            timeout-ms = <200>;
+            bindings = <&kp PL_C>;
+            key-positions = <47 17>;
+            layers = <0>;
+        };
+
+        Ns {
+            timeout-ms = <200>;
+            bindings = <&kp PL_N>;
+            key-positions = <47 2>;
+            layers = <0>;
+        };
 
         Ls {
             timeout-ms = <200>;
@@ -132,33 +160,7 @@
             layers = <0>;
         };
 
-        Zs {
-            timeout-ms = <200>;
-            bindings = <&kp PL_Z>;
-            key-positions = <47 37>;
-            layers = <0>;
-        };
 
-        Xs {
-            timeout-ms = <200>;
-            bindings = <&kp PL_X>;
-            key-positions = <47 29>;
-            layers = <0>;
-        };
-
-        Cs {
-            timeout-ms = <200>;
-            bindings = <&kp PL_C>;
-            key-positions = <47 17>;
-            layers = <0>;
-        };
-
-        Ns {
-            timeout-ms = <200>;
-            bindings = <&kp PL_N>;
-            key-positions = <47 2>;
-            layers = <0>;
-        };
     };
 
     macros {
