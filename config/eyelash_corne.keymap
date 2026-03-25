@@ -316,8 +316,8 @@
         layer_3 {
             display-name = "GAMING";
             bindings = <
-&trans          &trans  &trans  &trans        &trans     &trans                             &kp UP_ARROW                     &trans  &trans           &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans        &trans     &trans             &kp LEFT_ARROW  &kp SPACE       &kp RIGHT_ARROW  &trans  &trans           &trans  &trans  &trans  &trans
+&trans          &trans  &kp Q   &kp W         &kp E      &kp R                              &kp UP_ARROW                     &trans  &trans           &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans  &kp A   &kp S         &kp D      &kp F              &kp LEFT_ARROW  &kp SPACE       &kp RIGHT_ARROW  &trans  &trans           &trans  &trans  &trans  &trans
 &trans          &trans  &trans  &trans        &trans     &trans   &tog 3                    &kp DOWN_ARROW                   &trans  &trans           &trans  &trans  &trans  &kp ESC
                                 &kp LEFT_ALT  &kp SPACE  &kp RET                                                             &trans  &kp RIGHT_SHIFT  &trans
             >;
