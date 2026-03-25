@@ -51,11 +51,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   NUMBERS:
   - {t: '$$mdi:keyboard-esc$$', h: '`'}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - {t: F1, h: Gui+1}
+  - {t: F2, h: Gui+2}
+  - {t: F3, h: Gui+3}
+  - {t: F4, h: Gui+4}
+  - {t: F5, h: Gui+5}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
