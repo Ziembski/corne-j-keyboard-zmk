@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
-  - '6'
+  - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', h: '[', s: (}
@@ -75,8 +75,8 @@ layers:
   - HOME
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: \, s: '|'}
+  - {t: '9', h: '[', s: (}
+  - {t: '0', h: ']', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - {t: ',', h: ., s: <}
@@ -113,11 +113,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - {t: F1, h: Gui+1}
+  - {t: F2, h: Gui+2}
+  - {t: F3, h: Gui+3}
+  - {t: F4, h: Gui+4}
+  - {t: F5, h: Gui+5}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
