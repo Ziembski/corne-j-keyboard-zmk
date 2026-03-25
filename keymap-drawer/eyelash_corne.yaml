@@ -2,46 +2,46 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   COLEMAK:
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
   - F
-  - P
-  - B
+  - N
+  - D
+  - W
+  - V
   - $$mdi:arrow-up-bold$$
-  - J
+  - {t: '''', s: '"'}
   - L
+  - O
   - U
   - Y
-  - {t: ;, s: ':'}
   - '&block'
   - '&td0'
-  - A
-  - R
   - S
+  - R
   - T
+  - C
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: newlayout, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
-  - M
-  - N
+  - H
+  - K
+  - A
   - E
   - I
-  - O
-  - {t: '''', s: '"'}
+  - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-control$$
-  - Z
   - X
-  - C
-  - D
-  - V
+  - J
+  - M
+  - P
+  - B
   - '&gaming_RGB'
   - $$mdi:arrow-down-bold$$
-  - K
-  - H
+  - Q
+  - Z
   - {t: ',', s: <}
-  - {t: ., s: '>'}
   - {t: /, s: '?'}
+  - {t: ., s: '>'}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: '&numbers_RGB'}
@@ -196,59 +196,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
-  newlayout:
-  - $$mdi:keyboard-tab$$
-  - F
-  - N
-  - D
-  - W
-  - V
-  - $$mdi:arrow-up-bold$$
-  - {t: '''', s: '"'}
-  - L
-  - O
-  - U
-  - Y
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&td0'
-  - S
-  - R
-  - T
-  - C
-  - G
-  - $$mdi:arrow-left-bold$$
-  - {t: newlayout, h: toggle}
-  - $$mdi:arrow-right-bold$$
-  - H
-  - K
-  - A
-  - E
-  - I
-  - {t: ;, s: ':'}
-  - $$mdi:apple-keyboard-control$$
-  - X
-  - J
-  - M
-  - P
-  - B
-  - '&gaming_RGB'
-  - $$mdi:arrow-down-bold$$
-  - Q
-  - Z
-  - {t: ',', s: <}
-  - {t: /, s: '?'}
-  - {t: ., s: '>'}
-  - $$mdi:keyboard-esc$$
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: '&numbers_RGB'}
-  - {t: '$$mdi:keyboard-return$$', h: '&func_RGB'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [8, 47]
   k: AltGr+L
-  l: [COLEMAK, newlayout]
+  l: [COLEMAK]
 - p: [24, 47]
   k: AltGr+E
   l: [COLEMAK]
@@ -273,27 +224,3 @@ combos:
 - p: [23, 47]
   k: AltGr+N
   l: [COLEMAK]
-- p: [47, 25]
-  k: AltGr+E
-  l: [newlayout]
-- p: [47, 9]
-  k: AltGr+O
-  l: [newlayout]
-- p: [47, 24]
-  k: AltGr+A
-  l: [newlayout]
-- p: [47, 14]
-  k: AltGr+S
-  l: [newlayout]
-- p: [47, 37]
-  k: AltGr+Z
-  l: [newlayout]
-- p: [47, 29]
-  k: AltGr+X
-  l: [newlayout]
-- p: [47, 17]
-  k: AltGr+C
-  l: [newlayout]
-- p: [47, 2]
-  k: AltGr+N
-  l: [newlayout]
