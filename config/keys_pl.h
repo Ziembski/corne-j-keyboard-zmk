@@ -34,24 +34,13 @@
 // Aliases
 
 
-#define PL_E    E    // E
-#define PL_O    O    // O
-#define PL_A    A    // A
-#define PL_S    S    // S
-#define PL_L    L    // L
-#define PL_Z    Z    // Z
-#define PL_X    X    // X
-#define PL_C    C    // C
-#define PL_N    N    // N
-
-#define PL_EOGO RA(PL_E)    // Ę
-#define PL_EURO RA(PL_U)    // €
-#define PL_OACU RA(PL_O)    // Ó
-#define PL_AOGO RA(PL_A)    // Ą
-#define PL_SACU RA(PL_S)    // Ś
-#define PL_LSTR RA(PL_L)    // Ł
-#define PL_ZDOT RA(PL_Z)    // Ż
-#define PL_ZACU RA(PL_X)    // Ź
-#define PL_CACU RA(PL_C)    // Ć
-#define PL_NACU RA(PL_N)    // Ń
+#define PL_A     RA(A)         /* ą  U+0105 */
+#define PL_C     RA(C)         /* ć  U+0107 */
+#define PL_E     RA(E)         /* ę  U+0119 */
+#define PL_L     RA(L)         /* ł  U+0142 */
+#define PL_N     RA(N)         /* ń  U+0144 */
+#define PL_O     RA(O)         /* ó  U+00F3 */
+#define PL_S     RA(S)         /* ś  U+015B */
+#define PL_X     RA(X)         /* ź  U+017A */
+#define PL_Z     RA(Z)         /* ż  U+017C */
 
