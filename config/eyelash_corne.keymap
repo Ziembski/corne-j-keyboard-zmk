@@ -99,63 +99,63 @@
 
         Ls {
             timeout-ms = <200>;
-            bindings = <&kp PL_LSTR>;
+            bindings = <&kp PL_L>;
             key-positions = <8 47>;
             layers = <0>;
         };
 
         Es {
             timeout-ms = <200>;
-            bindings = <&kp PL_EOGO>;
+            bindings = <&kp PL_E>;
             key-positions = <47 25>;
             layers = <0>;
         };
 
         Os {
             timeout-ms = <200>;
-            bindings = <&kp PL_OACU>;
+            bindings = <&kp PL_O>;
             key-positions = <47 9>;
             layers = <0>;
         };
 
         As {
             timeout-ms = <200>;
-            bindings = <&kp PL_AOGO>;
+            bindings = <&kp PL_A>;
             key-positions = <47 24>;
             layers = <0>;
         };
 
         Ss {
             timeout-ms = <200>;
-            bindings = <&kp PL_SACU>;
+            bindings = <&kp PL_S>;
             key-positions = <47 14>;
             layers = <0>;
         };
 
         Zs {
             timeout-ms = <200>;
-            bindings = <&kp PL_ZDOT>;
+            bindings = <&kp PL_Z>;
             key-positions = <47 37>;
             layers = <0>;
         };
 
         Xs {
             timeout-ms = <200>;
-            bindings = <&kp PL_ZACU>;
+            bindings = <&kp PL_Z>;
             key-positions = <47 29>;
             layers = <0>;
         };
 
         Cs {
             timeout-ms = <200>;
-            bindings = <&kp PL_CACU>;
+            bindings = <&kp PL_C>;
             key-positions = <47 17>;
             layers = <0>;
         };
 
         Ns {
             timeout-ms = <200>;
-            bindings = <&kp PL_NACU>;
+            bindings = <&kp PL_N>;
             key-positions = <47 2>;
             layers = <0>;
         };
