@@ -141,7 +141,7 @@
 
         Xs {
             timeout-ms = <200>;
-            bindings = <&kp PL_Z>;
+            bindings = <&kp PL_X>;
             key-positions = <47 29>;
             layers = <0>;
         };
