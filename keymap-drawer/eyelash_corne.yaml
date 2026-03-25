@@ -87,10 +87,10 @@ layers:
   - {t: ;, s: ':'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Ins
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - END
+  - HOME
+  - PG UP
+  - PgDn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
