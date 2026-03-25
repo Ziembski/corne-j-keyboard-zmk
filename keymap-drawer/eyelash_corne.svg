@@ -537,52 +537,12 @@ rect.held, rect.combo.held {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<path d="M742,119 l-11,-66" class="combo"/>
-<path d="M742,119 l11,66" class="combo"/>
-<rect rx="6" ry="6" x="728" y="106" width="28" height="26" class="combo"/>
-<text x="742" y="119" class="combo tap">
-<tspan x="742" dy="-0.6em">AltGr+</tspan><tspan x="742" dy="1.2em">L</tspan>
-</text>
-</g>
-<g class="combo combopos-1">
-<path d="M798,147 l-31,41" class="combo"/>
-<path d="M798,147 l31,-41" class="combo"/>
-<rect rx="6" ry="6" x="784" y="134" width="28" height="26" class="combo"/>
-<text x="798" y="147" class="combo tap">
-<tspan x="798" dy="-0.6em">AltGr+</tspan><tspan x="798" dy="1.2em">E</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<path d="M770,115 l-11,69" class="combo"/>
-<path d="M770,115 l11,-69" class="combo"/>
-<rect rx="6" ry="6" x="756" y="102" width="28" height="26" class="combo"/>
-<text x="770" y="115" class="combo tap">
-<tspan x="770" dy="-0.6em">AltGr+</tspan><tspan x="770" dy="1.2em">O</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M770,143 l-10,41" class="combo"/>
-<path d="M770,143 l10,-41" class="combo"/>
-<rect rx="6" ry="6" x="756" y="130" width="28" height="26" class="combo"/>
-<text x="770" y="143" class="combo tap">
-<tspan x="770" dy="-0.6em">AltGr+</tspan><tspan x="770" dy="1.2em">A</tspan>
-</text>
-</g>
-<g class="combo combopos-4">
-<path d="M420,154 l318,46" class="combo"/>
-<path d="M420,154 l-318,-46" class="combo"/>
-<rect rx="6" ry="6" x="406" y="141" width="28" height="26" class="combo"/>
-<text x="420" y="154" class="combo tap">
-<tspan x="420" dy="-0.6em">AltGr+</tspan><tspan x="420" dy="1.2em">S</tspan>
-</text>
-</g>
-<g class="combo combopos-5">
 <rect rx="6" ry="6" x="728" y="162" width="28" height="26" class="combo"/>
 <text x="742" y="175" class="combo tap">
 <tspan x="742" dy="-0.6em">AltGr+</tspan><tspan x="742" dy="1.2em">Z</tspan>
 </text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-1">
 <path d="M420,182 l317,20" class="combo"/>
 <path d="M420,182 l-317,-20" class="combo"/>
 <rect rx="6" ry="6" x="406" y="169" width="28" height="26" class="combo"/>
@@ -590,7 +550,7 @@ rect.held, rect.combo.held {
 <tspan x="420" dy="-0.6em">AltGr+</tspan><tspan x="420" dy="1.2em">X</tspan>
 </text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-2">
 <path d="M504,147 l234,52" class="combo"/>
 <path d="M504,147 l-234,-52" class="combo"/>
 <rect rx="6" ry="6" x="490" y="134" width="28" height="26" class="combo"/>
@@ -598,12 +558,52 @@ rect.held, rect.combo.held {
 <tspan x="504" dy="-0.6em">AltGr+</tspan><tspan x="504" dy="1.2em">C</tspan>
 </text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-3">
 <path d="M448,119 l290,79" class="combo"/>
 <path d="M448,119 l-290,-79" class="combo"/>
 <rect rx="6" ry="6" x="434" y="106" width="28" height="26" class="combo"/>
 <text x="448" y="119" class="combo tap">
 <tspan x="448" dy="-0.6em">AltGr+</tspan><tspan x="448" dy="1.2em">N</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<path d="M742,119 l-11,-66" class="combo"/>
+<path d="M742,119 l11,66" class="combo"/>
+<rect rx="6" ry="6" x="728" y="106" width="28" height="26" class="combo"/>
+<text x="742" y="119" class="combo tap">
+<tspan x="742" dy="-0.6em">AltGr+</tspan><tspan x="742" dy="1.2em">L</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<path d="M798,147 l-31,41" class="combo"/>
+<path d="M798,147 l31,-41" class="combo"/>
+<rect rx="6" ry="6" x="784" y="134" width="28" height="26" class="combo"/>
+<text x="798" y="147" class="combo tap">
+<tspan x="798" dy="-0.6em">AltGr+</tspan><tspan x="798" dy="1.2em">E</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<path d="M770,115 l-11,69" class="combo"/>
+<path d="M770,115 l11,-69" class="combo"/>
+<rect rx="6" ry="6" x="756" y="102" width="28" height="26" class="combo"/>
+<text x="770" y="115" class="combo tap">
+<tspan x="770" dy="-0.6em">AltGr+</tspan><tspan x="770" dy="1.2em">O</tspan>
+</text>
+</g>
+<g class="combo combopos-7">
+<path d="M770,143 l-10,41" class="combo"/>
+<path d="M770,143 l10,-41" class="combo"/>
+<rect rx="6" ry="6" x="756" y="130" width="28" height="26" class="combo"/>
+<text x="770" y="143" class="combo tap">
+<tspan x="770" dy="-0.6em">AltGr+</tspan><tspan x="770" dy="1.2em">A</tspan>
+</text>
+</g>
+<g class="combo combopos-8">
+<path d="M420,154 l318,46" class="combo"/>
+<path d="M420,154 l-318,-46" class="combo"/>
+<rect rx="6" ry="6" x="406" y="141" width="28" height="26" class="combo"/>
+<text x="420" y="154" class="combo tap">
+<tspan x="420" dy="-0.6em">AltGr+</tspan><tspan x="420" dy="1.2em">S</tspan>
 </text>
 </g>
 </g>
