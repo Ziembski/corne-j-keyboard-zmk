@@ -294,7 +294,7 @@
             bindings = <
 &mt GRAVE ESCAPE  &mt LG(NUMBER_1) F1  &mt LG(NUMBER_2) F2  &mt LG(NUMBER_3) F3  &mt LG(NUMBER_4) F4  &mt LG(NUMBER_5) F5                              &mmv MOVE_UP                     &kp F6         &kp F7          &kp F8    &kp F9               &kp F10               &kp F11
 &kp LEFT_SHIFT    &kp N1               &kp N2               &kp N3               &kp N4               &kp N5                           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp N6         &kp N7          &kp N8    &mt LEFT_BRACKET N9  &mt RIGHT_BRACKET N0  &kp F12
-&kp LEFT_CONTROL  &kp KP_SLASH         &kp PL_MINUS         &kp PLUS             &kp KP_EQUAL         &kp ASTRK            &kp SEMI                    &mmv MOVE_DOWN                   &kp INSERT     &kp END         &kp HOME  &kp PG_UP            &kp PAGE_DOWN         &none
+&kp LEFT_CONTROL  &kp KP_SLASH         &kp PL_MINUS         &kp PLUS             &kp KP_EQUAL         &kp ASTRK            &kp SEMI                    &mmv MOVE_DOWN                   &kp INSERT     &copy           &paste  	 &kp LS(LG(S))        &kp PAGE_DOWN         &none
                                                             &kp LEFT_COMMAND     &trans               &trans                                                                            &kp BACKSPACE  &kp LEFT_SHIFT  &kp DEL
             >;
 
@@ -305,9 +305,9 @@
             display-name = "FCONFIG";
             bindings = <
 &kp ESCAPE        &mt LG(NUMBER_1) F1  &mt LG(NUMBER_2) F2  &kp UP         &mt LG(NUMBER_4) F4  &mt LG(NUMBER_5) F5                           &kp K_SCROLL_UP           &left         &mid             &xlookup  &sumifs    &countif       &none
-&kp LEFT_SHIFT    &mt LG(NUMBER_1) F1  &kp LEFT             &kp DOWN       &kp RIGHT            &mt LG(NUMBER_5) F5                    &none  &mkp LCLK          &none  &none         &xlookup         &none     &none      &none          &none
+&kp LEFT_SHIFT    &mt LG(NUMBER_1) F1  &kp LEFT             &kp DOWN       &kp RIGHT            &mt LG(NUMBER_5) F5                    &none  &mkp LCLK          &none  &none         &none            &none     &none      &none          &none
 &sk LEFT_CONTROL  &copy                &paste               &kp LS(LG(S))  &kp F11              &kp F12              &bt BT_CLR_ALL           &kp K_SCROLL_DOWN         &none         &kp END          &kp HOME  &kp PG_UP  &kp PAGE_DOWN  &bt BT_SEL 0
-                                                            &bt BT_SEL 1   &none                &bt BT_SEL 2                                                            &out OUT_TOG  &rgb_ug RGB_TOG
+                                                            &bt BT_SEL 1   &bt BT_SEL 2         &bt BT_SEL 2                                                            &out OUT_TOG  &rgb_ug RGB_TOG
             >;
 
             sensor-bindings = <&scroll_encoder>;
