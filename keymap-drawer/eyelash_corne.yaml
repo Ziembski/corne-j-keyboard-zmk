@@ -79,11 +79,11 @@ layers:
   - {t: '0', h: ']', s: )}
   - F12
   - $$mdi:apple-keyboard-control$$
-  - {t: ',', h: ., s: <}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '-', h: /, s: _}
-  - {t: '=', h: '*', s: +}
+  - KP SLASH
+  - PL MINUS
+  - +
+  - KP EQUAL
+  - '*'
   - {t: ;, s: ':'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Ins
