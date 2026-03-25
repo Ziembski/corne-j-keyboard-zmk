@@ -31,9 +31,6 @@
 
 / {
     behaviors {
-	
-		PL_UNICODE_MACROS
-		
         td0: td0 {
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
@@ -102,63 +99,63 @@
 
         Ls {
             timeout-ms = <200>;
-            bindings = <&pl_l>;
+            bindings = <&kp PL_L>;
             key-positions = <8 47>;
             layers = <0>;
         };
 
         Es {
             timeout-ms = <200>;
-            bindings = <&pl_e>;
+            bindings = <&kp PL_E>;
             key-positions = <47 25>;
             layers = <0>;
         };
 
         Os {
             timeout-ms = <200>;
-            bindings = <&pl_o>;
+            bindings = <&kp PL_O>;
             key-positions = <47 9>;
             layers = <0>;
         };
 
         As {
             timeout-ms = <200>;
-            bindings = <&pl_a>;
+            bindings = <&kp PL_A>;
             key-positions = <47 24>;
             layers = <0>;
         };
 
         Ss {
             timeout-ms = <200>;
-            bindings = <&pl_s>;
+            bindings = <&kp PL_S>;
             key-positions = <47 14>;
             layers = <0>;
         };
 
         Zs {
             timeout-ms = <200>;
-            bindings = <&pl_z>;
+            bindings = <&kp PL_Z>;
             key-positions = <47 37>;
             layers = <0>;
         };
 
         Xs {
             timeout-ms = <200>;
-            bindings = <&pl_x>;
+            bindings = <&kp PL_Z>;
             key-positions = <47 29>;
             layers = <0>;
         };
 
         Cs {
             timeout-ms = <200>;
-            bindings = <&pl_c>;
+            bindings = <&kp PL_C>;
             key-positions = <47 17>;
             layers = <0>;
         };
 
         Ns {
             timeout-ms = <200>;
-            bindings = <&pl_n>;
+            bindings = <&kp PL_N>;
             key-positions = <47 2>;
             layers = <0>;
         };
