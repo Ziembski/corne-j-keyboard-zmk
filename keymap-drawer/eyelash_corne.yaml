@@ -216,7 +216,7 @@ combos:
   k: AltGr+Z
   l: [COLEMAK]
 - p: [47, 29]
-  k: AltGr+Z
+  k: AltGr+X
   l: [COLEMAK]
 - p: [47, 17]
   k: AltGr+C
