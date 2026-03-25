@@ -295,7 +295,7 @@
             display-name = "NUMBERS";
             bindings = <
 &mt GRAVE ESCAPE  &kp N1         &kp N2      &kp N3            &kp N4               &kp N5                                            &mmv MOVE_UP                     &none          &none           &none    &none  &none          &none
-&kp LEFT_SHIFT    &kp NUMBER_6   &kp N7      &kp N8            &mt LEFT_BRACKET N9  &mt RIGHT_BRACKET N0              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME       &kp END         &none    &none  &kp BACKSLASH  &none
+&kp LEFT_SHIFT    &kp N6   		 &kp N7      &kp N8            &mt LEFT_BRACKET N9  &mt RIGHT_BRACKET N0              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME       &kp END         &none    &mt LEFT_BRACKET N9   &mt RIGHT_BRACKET N0  &none
 &kp LEFT_CONTROL  &mt DOT COMMA  &kp DELETE  &kp BACKSPACE     &mt SLASH MINUS      &mt ASTRK EQUAL       &kp SEMI                    &mmv MOVE_DOWN                   &kp INSERT     &none           &none    &none  &none          &none
                                              &kp LEFT_COMMAND  &trans               &trans                                                                             &kp BACKSPACE  &kp LEFT_SHIFT  &kp RET
             >;
@@ -307,7 +307,7 @@
             display-name = "FCONFIG";
             bindings = <
 &kp ESCAPE        &mt LG(NUMBER_1) F1  &mt LG(NUMBER_2) F2  &mt LG(NUMBER_3) F3  &mt LG(NUMBER_4) F4  &mt LG(NUMBER_5) F5                           &kp K_SCROLL_UP           &none         &left         &mid             &none  &none           &none
-&kp LEFT_SHIFT    &kp F6               &kp F7               &kp F8               &kp F9               &kp F10                                &none  &mkp LCLK          &none  &none         &xlookup      &none            &none  &none           &none
+&kp LEFT_SHIFT    &mt LG(NUMBER_1) F1  &mt LG(NUMBER_2) F2  &mt LG(NUMBER_3) F3  &mt LG(NUMBER_4) F4  &mt LG(NUMBER_5) F5                    &none  &mkp LCLK          &none  &none         &xlookup      &none            &none  &none           &none
 &sk LEFT_CONTROL  &copy                &paste               &kp LS(LG(S))        &kp F11              &kp F12              &bt BT_CLR_ALL           &kp K_SCROLL_DOWN         &none         &sumifs       &countif         &none  &kp SCROLLLOCK  &kp C_PAUSE
                                                             &bt BT_SEL 0         &bt BT_SEL 1         &none                                                                   &bt BT_SEL 2  &out OUT_TOG  &rgb_ug RGB_TOG
             >;
