@@ -32,7 +32,7 @@
 / {
     behaviors {
 	
-		PL_UNICODE_MACROS;
+		PL_UNICODE_MACROS
 		
         td0: td0 {
             compatible = "zmk,behavior-tap-dance";
