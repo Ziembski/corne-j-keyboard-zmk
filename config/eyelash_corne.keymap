@@ -292,10 +292,10 @@
         lower_layer {
             display-name = "NUMBERS";
             bindings = <
-&mt GRAVE ESCAPE  &kp EXCL   &kp AT     &kp HASH          &kp DOLLAR  &kp PERCENT                              &mmv MOVE_UP                     &kp CARET      &kp AMPS        &kp ASTERISK  &mt LEFT_BRACKET LEFT_PARENTHESIS  &mt RIGHT_BRACKET RIGHT_PARENTHESIS  &none
-&kp TILDE         &kp N1     &kp N2     &kp N3            &kp N4      &kp N5                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp N6         &kp N7          &kp N8        &kp N9                             &kp N0                               &none
-&kp LEFT_CONTROL  &kp SLASH  &kp MINUS  &kp PLUS          &kp EQUAL   &none        &kp SEMI                    &mmv MOVE_DOWN                   &kp INSERT     &none           &none         &kp LS(LG(S))                      &none                                &none
-                                        &kp LEFT_COMMAND  &trans      &trans                                                                    &kp BACKSPACE  &kp LEFT_SHIFT  &kp DEL
+&mt GRAVE ESCAPE  &kp EXCL   &kp AT     &kp HASH          &kp DOLLAR  &kp PERCENT                              &mmv MOVE_UP                     &kp CARET      &kp AMPS    &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&kp TILDE         &kp N1     &kp N2     &kp N3            &kp N4      &kp N5                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp N6         &kp N7      &kp N8            &kp N9                &kp N0                 &kp BSLH
+&kp LEFT_CONTROL  &kp SLASH  &kp MINUS  &kp PLUS          &kp EQUAL   &none        &kp SEMI                    &mmv MOVE_DOWN                   &kp COMMA      &kp DOT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE
+                                        &kp LEFT_COMMAND  &trans      &trans                                                                    &kp BACKSPACE  &kp DELETE  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -304,10 +304,10 @@
         raise_layer {
             display-name = "FCONFIG";
             bindings = <
-&none             &kp HOME  &none     &kp UP        &none         &kp PAGE_UP                             &kp K_SCROLL_UP           &none         &kp F1           &kp F2   &kp F3   &kp F4   &none
-&kp LEFT_SHIFT    &kp END   &kp LEFT  &kp DOWN      &kp RIGHT     &kp PAGE_DOWN                    &none  &mkp LCLK          &none  &none         &kp F5           &kp F6   &kp F7   &kp F8   &none
-&sk LEFT_CONTROL  &mid      &xlookup  &sumifs       &countif      &kp LS(LG(S))          &bt BT_CLR_ALL           &kp K_SCROLL_DOWN         &none         &kp F9           &kp F10  &kp F11  &kp F12  &none
-                                      &bt BT_SEL 0  &bt BT_SEL 1  &none                                                             &out OUT_TOG  &rgb_ug RGB_TOG
+&kp K_MUTE        &kp HOME  &none     &kp UP        &none         &kp PAGE_UP                             &kp K_SCROLL_UP           &none         &kp F1        &kp F2   &kp F3   &kp F4   &kp SCROLLLOCK
+&kp LEFT_SHIFT    &kp END   &kp LEFT  &kp DOWN      &kp RIGHT     &kp PAGE_DOWN                    &none  &mkp LCLK          &none  &none         &kp F5        &kp F6   &kp F7   &kp F8   &kp PAUSE_BREAK
+&sk LEFT_CONTROL  &mid      &xlookup  &sumifs       &countif      &kp LS(LG(S))  &bt BT_CLR_ALL           &kp K_SCROLL_DOWN         &none         &kp F9        &kp F10  &kp F11  &kp F12  &kp INS
+                                      &bt BT_SEL 0  &bt BT_SEL 1  &none                                                             &out OUT_TOG  &bt BT_SEL 2
             >;
 
             sensor-bindings = <&scroll_encoder>;
