@@ -51,19 +51,19 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   NUMBERS:
   - {t: '$$mdi:keyboard-esc$$', h: '`'}
-  - {t: F1, h: Gui+1}
-  - {t: F2, h: Gui+2}
-  - {t: F3, h: Gui+3}
-  - {t: F4, h: Gui+4}
-  - {t: F5, h: Gui+5}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - $$mdi:apple-keyboard-shift$$
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '|'
+  - '~'
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -75,81 +75,81 @@ layers:
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - {t: '9', h: '[', s: (}
-  - {t: '0', h: ']', s: )}
-  - F12
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
-  - KP SLASH
-  - PL MINUS
+  - {t: /, s: '?'}
+  - {t: '-', s: _}
   - +
-  - KP EQUAL
-  - '*'
+  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ;, s: ':'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - Ins
-  - END
-  - HOME
-  - PG UP
-  - PgDn
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '{'
+  - '}'
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   FCONFIG:
-  - $$mdi:keyboard-esc$$
-  - {t: F1, h: Gui+1}
-  - {t: F2, h: Gui+2}
-  - {t: F3, h: Gui+3}
-  - {t: F4, h: Gui+4}
-  - {t: F5, h: Gui+5}
+  - MUTE
+  - HOME
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PgUp
   - SCROLL UP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&left'
-  - '&mid'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F1
+  - F2
+  - F3
+  - F4
+  - SCROLLLOCK
   - $$mdi:apple-keyboard-shift$$
-  - {t: F1, h: Gui+1}
-  - {t: F2, h: Gui+2}
-  - {t: F3, h: Gui+3}
-  - {t: F4, h: Gui+4}
-  - {t: F5, h: Gui+5}
+  - END
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - PgDn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&xlookup'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F5
+  - F6
+  - F7
+  - F8
+  - PAUSE BREAK
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - '&copy'
-  - '&paste'
+  - '&mid'
+  - '&xlookup'
+  - '&sumifs'
+  - '&countif'
   - Sft+Gui+S
-  - F11
-  - F12
   - BT CLR ALL
   - SCROLL DOWN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&sumifs'
-  - '&countif'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - SCROLLLOCK
-  - PAUSE
+  - F9
+  - F10
+  - F11
+  - F12
+  - INS
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-  - RGB TOG
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   GAMING:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '1', s: '!'}
   - Q
   - W
   - E
@@ -162,7 +162,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '2', s: '@'}
   - A
   - S
   - D
@@ -177,7 +177,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '3', s: '#'}
   - Z
   - X
   - C
