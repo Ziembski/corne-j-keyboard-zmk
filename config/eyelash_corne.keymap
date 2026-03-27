@@ -304,10 +304,10 @@
         raise_layer {
             display-name = "FCONFIG";
             bindings = <
-&kp K_MUTE        &kp HOME  &none     &kp UP        &none         &kp PAGE_UP                             &kp K_SCROLL_UP           &none         &kp F1        &kp F2   &kp F3   &kp F4   &kp SCROLLLOCK
+&kp LEFT_ALT      &kp HOME  &none     &kp UP        &none         &kp PAGE_UP                             &kp K_SCROLL_UP           &none         &kp F1        &kp F2   &kp F3   &kp F4   &kp SCROLLLOCK
 &kp LEFT_SHIFT    &kp END   &kp LEFT  &kp DOWN      &kp RIGHT     &kp PAGE_DOWN                    &none  &mkp LCLK          &none  &none         &kp F5        &kp F6   &kp F7   &kp F8   &kp PAUSE_BREAK
 &sk LEFT_CONTROL  &mid      &xlookup  &sumifs       &countif      &kp LS(LG(S))  &bt BT_CLR_ALL           &kp K_SCROLL_DOWN         &none         &kp F9        &kp F10  &kp F11  &kp F12  &kp INS
-                                      &bt BT_SEL 0  &bt BT_SEL 1  &none                                                             &out OUT_TOG  &bt BT_SEL 2  &none
+                                      &bt BT_SEL 0  &bt BT_SEL 1  &none                                                             &out OUT_TOG  &bt BT_SEL 2
             >;
 
             sensor-bindings = <&scroll_encoder>;
